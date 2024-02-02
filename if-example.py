@@ -14,6 +14,8 @@ else:
         print("You are too old to play this game.")
     elif age < 18:
         print("You are a minor. You can not play the drinking game")
+    elif country == "USA" or country == "UAE" and age < 21:
+        print("You are not able to drink in the USA or UAE. you are not 21 yet")
     else:
         print("you are an adult. you can play the drinking game")
         print("Have some, ", random.choice(drinks), "and enjoy the game.")
