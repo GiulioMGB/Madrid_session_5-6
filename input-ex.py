@@ -9,5 +9,3 @@ age = int(age)
 birth_year = 2023 - age
 
 print(name, ", you were born in ", birth_year, ".",  sep="")
-
-
